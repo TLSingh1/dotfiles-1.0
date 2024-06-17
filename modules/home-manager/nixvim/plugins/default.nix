@@ -5,6 +5,7 @@
     ./cmp.nix
     ./comment.nix
     ./dashboard.nix
+    ./hop.nix
     ./indent-blankline.nix
     ./lsp.nix
     ./lualine.nix
