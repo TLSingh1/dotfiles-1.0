@@ -18,15 +18,21 @@
   ];
 
   programs.nixvim.plugins = {
+    friendly-snippets.enable = true;
     treesitter = { enable = true; ensureInstalled = "all"; };
     treesitter-context.enable = true;
     treesitter-textobjects.enable = true;
     # comment.enable = true;
     ts-context-commentstring.enable = true;
     ts-autotag.enable = true;
-    luasnip.enable = true;
     conform-nvim.enable = true;
     nvim-autopairs.enable = true;
     surround.enable = true;
+    luasnip = {
+      enable = true;
+      extraConfig = {
+        enable_autosnippets = true;
+      };
+    };
   };
 }

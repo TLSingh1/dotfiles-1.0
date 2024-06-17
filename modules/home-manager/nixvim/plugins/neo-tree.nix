@@ -8,6 +8,7 @@
     popupBorderStyle = "rounded";
     retainHiddenRootIndent = true;
     closeIfLastWindow = true;
+    buffers.followCurrentFile.enabled = true;
     filesystem = {
       followCurrentFile.enabled = true;
       useLibuvFileWatcher = true;
