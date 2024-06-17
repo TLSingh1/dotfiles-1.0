@@ -96,6 +96,48 @@
       options = { silent = true; };
       mode = "n";
     }
+    {
+      key = "f";
+      action = ":HopWord <CR>";
+      options = { silent = true; };
+      mode = "n";
+    }
+    {
+      key = "F";
+      action = ":HopLine <CR>";
+      options = { silent = true; };
+      mode = "n";
+    }
+    {
+      key = "<C-f>";
+      action = ":HopChar1 <CR>";
+      options = { silent = true; };
+      mode = "n";
+    }
+    {
+      key = "<C-h>";
+      action = ":SmartResizeLeft <CR>";
+      options = { silent = true; };
+      mode = "n";
+    }
+    {
+      key = "<C-l>";
+      action = ":SmartResizeRight <CR>";
+      options = { silent = true; };
+      mode = "n";
+    }
+    {
+      key = "<C-j>";
+      action = ":SmartResizeDown <CR>";
+      options = { silent = true; };
+      mode = "n";
+    }
+    {
+      key = "<C-k>";
+      action = ":SmartResizeUp <CR>";
+      options = { silent = true; };
+      mode = "n";
+    }
   ];
 }
 

@@ -29,6 +29,7 @@
     conform-nvim.enable = true;
     nvim-autopairs.enable = true;
     surround.enable = true;
+    smart-splits.enable = true;
     luasnip = {
       enable = true;
       extraConfig = {
