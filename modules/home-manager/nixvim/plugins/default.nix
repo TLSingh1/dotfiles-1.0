@@ -10,9 +10,11 @@
     ./lsp.nix
     ./lualine.nix
     ./neo-tree.nix
-    # ./neorg.nix
+    /* ./neorg.nix */
     ./noice.nix
+    /* ./none-ls.nix */
     ./notify.nix
+    /* ./nvim-tree.nix */
     ./project.nix
     ./telescope.nix
     ./toggleterm.nix
@@ -26,6 +28,8 @@
     # comment.enable = true;
     ts-context-commentstring.enable = true;
     ts-autotag.enable = true;
+
+    # TODO: uncomment below if none-ls trash
     conform-nvim.enable = true;
     nvim-autopairs.enable = true;
     surround.enable = true;
@@ -36,5 +40,18 @@
         enable_autosnippets = true;
       };
     };
+
+    none-ls = {
+      enable = true;
+      enableLspFormat = true;
+    };
+
+    nvim-tree = {
+      enable = false;
+      autoClose = true;
+      disableNetrw = true;
+      hijackUnnamedBufferWhenOpening = true;
+    };
+
   };
 }

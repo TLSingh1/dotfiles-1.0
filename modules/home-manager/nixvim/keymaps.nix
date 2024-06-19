@@ -91,6 +91,12 @@
       mode = "n";
     }
     {
+      action = ":Telescope diagnostics <CR>";
+      key = "<leader>td";
+      options = { silent = true; };
+      mode = "n";
+    }
+    {
       action = "<cmd>Telescope live_grep<CR>";
       key = "<leader>g";
       options = { silent = true; };
@@ -135,6 +141,24 @@
     {
       key = "<C-k>";
       action = ":SmartResizeUp <CR>";
+      options = { silent = true; };
+      mode = "n";
+    }
+    {
+      key = "gl";
+      action = ":lua vim.diagnostic.open_float({ border = 'rounded' })<CR>";
+      options = { silent = true; };
+      mode = "n";
+    }
+    {
+      key = "gd";
+      action = "<cmd>lua vim.lsp.buf.definition()<CR>";
+      options = { silent = true; };
+      mode = "n";
+    }
+    {
+      key = "gD";
+      action = "<cmd>lua vim.lsp.buf.declaration()<CR>";
       options = { silent = true; };
       mode = "n";
     }

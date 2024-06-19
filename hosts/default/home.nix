@@ -56,10 +56,6 @@
     imagemagick
     gnome.zenity
     wl-color-picker
-    # lua54Packages.lua-utils-nvim
-    # lua53Packages.lua-utils-nvim
-    # lua52Packages.lua-utils-nvim
-    # lua51Packages.lua-utils-nvim
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.

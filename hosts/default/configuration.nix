@@ -169,6 +169,10 @@
     libgcc
     libgccjit
     gcc_multi
+    luajitPackages.jsregexp
+    lua54Packages.jsregexp
+    lua53Packages.jsregexp
+    lua52Packages.jsregexp
     luajitPackages.lua-utils-nvim
     lua54Packages.lua-utils-nvim
     ripgrep
@@ -180,6 +184,7 @@
     cmake
     gnumake
     sops
+    meson
   #  wget
   ];
 

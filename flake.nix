@@ -14,6 +14,7 @@
     };
     ags.url = "github:Aylur/ags";
     sops-nix.url = "github:Mic92/sops-nix";
+    neorg-overlay.url = "github:nvim-neorg/nixpkgs-neorg-overlay";
   };
 
   outputs = {
@@ -32,6 +33,11 @@
       modules = [
         ./hosts/default/configuration.nix
         home-manager.nixosModules.default
+        {
+          nixpkgs.overlays = [ 
+            inputs.neorg-overlay.overlays.default
+          ];
+        }
         sops-nix.nixosModules.sops
         {
           sops = {

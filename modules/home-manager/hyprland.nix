@@ -130,9 +130,8 @@
 
       # Fav apps
       bind = SUPER, l, exec, librewolf
+      bind = SUPER, k, exec, firefox
       bind = SUPER, 47, exec, ags -t launcher
-
-
     '';
   };
 }
