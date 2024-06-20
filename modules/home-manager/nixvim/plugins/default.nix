@@ -6,6 +6,7 @@
     ./comment.nix
     ./dashboard.nix
     ./hop.nix
+    ./image.nix
     ./indent-blankline.nix
     ./lsp.nix
     ./lualine.nix

@@ -56,6 +56,7 @@
     imagemagick
     gnome.zenity
     wl-color-picker
+    betterdiscordctl
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
@@ -81,6 +82,9 @@
     ".config/ags" = {
       source = config.lib.file.mkOutOfStoreSymlink "/home/tai/.dotfiles/modules/home-manager/ags";
       recursive = true;
+    };
+    ".config/BetterDiscord/themes/translucence-plus.css" = {
+      source = config.lib.file.mkOutOfStoreSymlink "/home/tai/.dotfiles/modules/home-manager/apps/discord/blur-theme.css";
     };
 
     # "~/.config/ags".source = ../../modules/home-manager/ags;
