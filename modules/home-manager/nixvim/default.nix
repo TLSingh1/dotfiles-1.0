@@ -11,6 +11,10 @@
     enable = true;
     viAlias = true;
     vimAlias = true;
+    colorschemes.kanagawa = {
+      enable = false;
+      settings.transparent = false;
+    };
     colorschemes.cyberdream = {
       enable = true;
       settings = {

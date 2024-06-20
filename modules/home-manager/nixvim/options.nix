@@ -38,7 +38,7 @@
 # spellsuggest = "10";
       laststatus = 3;
       breakindent = true;
-      breakindentopt = "shift:2,min:40,sbr";
+      /* breakindentopt = "shift:2,min:40,sbr"; */
       linebreak = true;
       winhighlight = "Normal:ActiveWindow,NormalNC:InactiveWindow";
 # foldcolumn = "1";

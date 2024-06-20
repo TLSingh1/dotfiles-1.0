@@ -86,6 +86,9 @@
     ".config/BetterDiscord/themes/translucence-plus.css" = {
       source = config.lib.file.mkOutOfStoreSymlink "/home/tai/.dotfiles/modules/home-manager/apps/discord/blur-theme.css";
     };
+    ".librewolf/afnctw1x.default/chrome/userChrome.css" = {
+      source = config.lib.file.mkOutOfStoreSymlink "/home/tai/.dotfiles/modules/home-manager/apps/librewolf/userChrome.css";
+    };
 
     # "~/.config/ags".source = ../../modules/home-manager/ags;
 
