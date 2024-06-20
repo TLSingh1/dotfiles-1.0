@@ -25,6 +25,7 @@
         rounding = 15;
         blur = {
           enabled = true;
+          xray = true;
           size = 8;
           passes = 3;
           new_optimizations = "on";
@@ -132,6 +133,14 @@
       bind = SUPER, l, exec, librewolf
       bind = SUPER, k, exec, firefox
       bind = SUPER, 47, exec, ags -t launcher
+
+      # Scroll through existing workspaces with mainMod + scroll
+      bind = ALT, mouse_down, workspace, e+1
+      bind = ALT, mouse_up, workspace, e-1
+
+      # Move/resize windows with mainMod + LMB/RMB and dragging
+      bindm = ALT, mouse:272, movewindow
+      bindm = ALT, mouse:273, resizewindow
     '';
   };
 }

@@ -6,16 +6,13 @@
     ./comment.nix
     ./dashboard.nix
     ./hop.nix
-    ./image.nix
+    /* ./image.nix */
     ./indent-blankline.nix
     ./lsp.nix
     ./lualine.nix
     ./neo-tree.nix
-    /* ./neorg.nix */
     ./noice.nix
-    /* ./none-ls.nix */
     ./notify.nix
-    /* ./nvim-tree.nix */
     ./project.nix
     ./telescope.nix
     ./toggleterm.nix
