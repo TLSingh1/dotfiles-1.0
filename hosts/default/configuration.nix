@@ -178,6 +178,7 @@
     ripgrep
     wl-clipboard-rs
     nodejs_22
+    zip
     unzip
     rustup
     supergfxctl

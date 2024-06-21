@@ -30,6 +30,7 @@
   home.packages = with pkgs; [
     htop
     btop
+    brave
     discord
     dunst
     _1password-gui
